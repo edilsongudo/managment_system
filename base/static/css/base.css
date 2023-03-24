@@ -1,10 +1,10 @@
 :root {
-  --bgcolor1: rgb(35, 39, 42);
+  --bgcolor1: rgb(234, 237, 240);
   --bgcolor2: var(--bgcolor1);
   --bodytext: rgba(255, 255, 255, 0.87);
   --buttonbg: rgb(114, 137, 218);
   --buttontext: #fff;
-  --bottom-nav-bg: #212121;
+  --bottom-nav-bg: #1a23aa;
   --bottom-nav-color: var(--bodytext);
   --bottom-nav-hover-color: var(--buttonbg);
   --entry-bg: var(--bottom-nav-bg);
@@ -97,13 +97,13 @@ label {
 }
 
 .logo {
-  background: url(../images/Logo_TL_invertido.png);
+  background: url(../images/logo_ACERT.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
   height: 100px;
-  margin: 30px 0px;
+  margin: 5px 0px;
 }
 
 .container {
@@ -142,12 +142,12 @@ input[type="password"],
 input[type="search"],
 input[type="tel"],
 input[type="number"] {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(0, 0, 0, 0.85);
   border-radius: 5px;
   padding: 25px;
   border: 3px solid rgba(213, 221, 236, 0.4);
   margin-bottom: 10px;
-  color: #fff;
+  color: #000;
   /*box-shadow: rgba(213, 221, 236, 0.4) 5px 5px 5px 5px;*/
 }
 
@@ -158,7 +158,7 @@ input[type="password"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="number"]:focus {
-  color: #fff;
+  color: #000;
   /*box-shadow: rgba(213, 221, 236, 0.4) 5px 5px 5px 5px;*/
 }
 
@@ -237,8 +237,8 @@ input[type="number"]:focus {
 
 .box_container .box {
   border: 2px solid var(--buttonbg);
-  width: 130px;
-  height: 130px;
+  width: 260px;
+  height: 260px;
   border-radius: 6px;
   text-align: center;
   display: flex;
@@ -288,7 +288,7 @@ input[type="number"]:focus {
   justify-content: center; 
   align-items: center;
   text-align: center;
-  background: rgba(114, 137, 218, 0.2);
+  background: rgba(69, 35, 190, 0.219);
 }
 
 .drop-box.hover {
